@@ -2,8 +2,8 @@
 
 ![License](https://img.shields.io/github/license/tu_usuario/ANN_IBEX_ONLINE)
 ![Status](https://img.shields.io/badge/STATUS-TERMINADO-blue)
-![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)(https://img.shields.io/badge/python-2.x-blue.svg)
-
+![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
+![Python Version](https://img.shields.io/badge/python-2.x-blue.svg)
 ## Descripción
 
 **ANN_IBEX_ONLINE** es un proyecto orientado a la creación de una metodología online para la selección de bisectores para la resolución de problemas NCOP (Non-Convex Optimization Problems). Utiliza la librería **Ibex**, que es un potente conjunto de herramientas para la optimización y análisis de intervalos.
