@@ -65,6 +65,7 @@ Antes de comenzar, se decidio crear un entorno virtual con python para la instal
       ```
    2. **Ejecutar problema con libreria IBEX**
      Ya ejecutado main.py esperando las consultas, hay que crear el ejecutable de la libreria ibex, este se llama ibexopt y esta ubicado en ./__build__/src/ibexopt.
+
 Este ejecutable se debe crear por cada modificacion en los archivos de la libreria. Por lo tanto, al modificar el archivo ibex_Optimizer.cpp como los de este repositorio, entonces habra que crear el ejecutable.
       ```
          waf ./install
