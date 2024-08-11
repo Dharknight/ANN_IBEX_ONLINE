@@ -44,7 +44,7 @@ Antes de comenzar, se decidio crear un entorno virtual con python para la instal
 ## Estructura del Repositorio
 1. **Carpeta env_ann**:
    
-1.1 **Explicacion archivos**:
+   1.1 **Explicacion archivos**:
       - main.py: Script que contiene el modelo de la red neuronal artificial y crea el lado servidor con socket para la comunicacion entre IBEX y ANN.
       - MFV3.h5: Modelo de la red neuronal artificial.
       - temp.csv: archivo csv que contiene las caracteristicas del problema a resolver. Cantidad de variables, restricciones, jacobianos calculados, etc.
@@ -54,7 +54,7 @@ Antes de comenzar, se decidio crear un entorno virtual con python para la instal
 
 2. **Carpeta env_lib_ibex**:
    
-2.1 **Explicacion archivos**:
+   2.1 **Explicacion archivos**:
       -  carpeta benchs: igual a la original de la libreria IBEX, dentro de optim esta la carpeta easy, medium, hard, cada una de estas contiene los problemas de la libreria.
       -  carpeta optim: contiene los archivos modificados para cada propuestas. El original se encuentra en /src/optim.
 
