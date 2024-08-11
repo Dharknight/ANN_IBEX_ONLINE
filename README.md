@@ -5,9 +5,9 @@
 
 ## Descripción
 
-**ANN_IBEX_ONLINE** es un proyecto orientado a la creación de una metodología en línea para la selección de bisectores para la resolución de problemas NCOP (Non-Convex Optimization Problems). Utiliza la librería **Ibex**, que es un potente conjunto de herramientas para la optimización y análisis de intervalos.
+**ANN_IBEX_ONLINE** es un proyecto orientado a la creación de una metodología online para la selección de bisectores para la resolución de problemas NCOP (Non-Convex Optimization Problems). Utiliza la librería **Ibex**, que es un potente conjunto de herramientas para la optimización y análisis de intervalos.
 
-Este repositorio incluye todos los archivos necesarios para implementar y probar la metodología propuesta.
+Este repositorio incluye todos los archivos que se usaron para modificar la libreria ibex y crear las diferentes propuestas para mi proyecto de defensa de titulo. Se explicara como se deben usar cada uno de los archivos modificados a partir de la libreria ibex original.
 
 ## Tabla de Contenidos
 
@@ -20,11 +20,30 @@ Este repositorio incluye todos los archivos necesarios para implementar y probar
 
 ## Instalación
 
-Antes de comenzar, asegurate de tener instalado **IBEX** en tu maquina. (http://ibex-team.github.io/ibex-lib/)
-Antes de comenzar, asegúrate de tener **Python 3.x** instalado en tu sistema. Luego, sigue estos pasos para configurar el entorno de desarrollo:
+Antes de comenzar, se decidio crear un entorno virtual con python para la instalacion de IBEX y la ANN. 
 
-1. **Clona este repositorio**:
+1. **Creacion de entornos virtuales**:
+   1.1. Entorno virtual con python3:
+      ```bash
+      python3 -m venv env_py3
+      
+   1.2. Entorno virtual con python2:
+      ```bash
+      pip install virtualenv
+      virtualenv -p python2.7 env_py27
 
-   ```bash
-   git clone https://github.com/tu_usuario/ANN_IBEX_ONLINE.git
-   cd ANN_IBEX_ONLINE
+2. **Instalacion IBEX entorno virtual con python2**
+   Seguir indicaciones de documentacion IBEX (http://ibex-team.github.io/ibex-lib/).
+
+3. **Clonar carpeta env_ann en entorno virtual con python3**
+
+## Estructura del Repositorio
+1. **Carpeta env_ann**:
+   1. Explicacion archivos:
+      - main.py: Script que contiene el modelo de la red neuronal artificial y crea el lado servidor con socket para la comunicacion entre IBEX y ANN.
+      - MFV3.h5: Modelo de la red neuronal artificial.
+      - temp.csv: archivo csv que contiene las caracteristicas del problema a resolver. Cantidad de variables, restricciones, jacobianos calculados, etc.
+      - temp.txt: mismo contenido que temp.csv pero en formato .txt .
+      - foo.exe: ejecutable para limpiar archivo que contiene el problema y calcular sus caracteristicas.
+      - updated_problem.bch: archivo que se crea cuando se crea una instancia nueva del problema original.
+   
