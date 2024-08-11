@@ -20,6 +20,7 @@ Este repositorio incluye todos los archivos necesarios para implementar y probar
 
 ## Instalación
 
+Antes de comenzar, asegurate de tener instalado **IBEX** en tu maquina. (http://ibex-team.github.io/ibex-lib/)
 Antes de comenzar, asegúrate de tener **Python 3.x** instalado en tu sistema. Luego, sigue estos pasos para configurar el entorno de desarrollo:
 
 1. **Clona este repositorio**:
