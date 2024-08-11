@@ -23,6 +23,7 @@ Este repositorio incluye todos los archivos que se usaron para modificar la libr
 Antes de comenzar, se decidio crear un entorno virtual con python para la instalacion de IBEX y la ANN. 
 
 1. **Creacion de entornos virtuales**:
+
    1.1. Entorno virtual con python3:
       ```
          python3 -m venv env_py3
