@@ -1,6 +1,6 @@
 # ANN_IBEX_ONLINE
 
-![License](https://img.shields.io/github/license/Dharknight/ANN_IBEX_ONLINE)
+![License](https://img.shields.io/badge/LICENSE-FREE-green)
 ![Status](https://img.shields.io/badge/STATUS-TERMINADO-blue)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-2.x-blue.svg)
