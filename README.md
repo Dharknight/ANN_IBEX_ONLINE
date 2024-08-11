@@ -1,6 +1,7 @@
 # ANN_IBEX_ONLINE
 
 ![License](https://img.shields.io/github/license/tu_usuario/ANN_IBEX_ONLINE)
+![Status](https://img.shields.io/badge/STATUS-TERMINADO-blue)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
 
 ## Descripción
@@ -76,3 +77,4 @@ Antes de comenzar, se decidio crear un entorno virtual con python para la instal
          ./__build__/src/ibexopt benchs/optim/medium/ex6_2_9.bch --random-seed=1
       ```
 
+## Contribuciones
