@@ -17,8 +17,6 @@ Este repositorio incluye todos los archivos que se usaron para modificar la libr
 - [Estructura del Repositorio](#estructura-del-repositorio)
 - [Uso](#uso)
 - [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
-- [Agradecimientos](#agradecimientos)
 
 ## Instalación
 
@@ -82,3 +80,5 @@ Antes de comenzar, se decidio crear un entorno virtual con python para la instal
    https://github.com/ibex-team/ibex-lib.git
    
    https://github.com/Waskertyioup
+
+   
