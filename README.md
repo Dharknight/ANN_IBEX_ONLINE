@@ -63,8 +63,8 @@ Antes de comenzar, se decidio crear un entorno virtual con python para la instal
       ```bash
          waf ./install
       generando el archivo ibexopt ubicado en ./__build__/src/ibexopt
-      Y para ejecutar un caso de prueba se usa el siguiente comando:
       
+      Y para ejecutar un caso de prueba se usa el siguiente comando:
       ```bash
          ./__build__/src/ibexopt benchs/optim/medium/ex6_2_9.bch --random-seed=1
 
