@@ -79,3 +79,4 @@ Antes de comenzar, se decidio crear un entorno virtual con python para la instal
       ```
 
 ## Contribuciones
+   https://github.com/Waskertyioup
