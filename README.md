@@ -24,16 +24,19 @@ Antes de comenzar, se decidio crear un entorno virtual con python para la instal
 
 1. **Creacion de entornos virtuales**:
    1.1. Entorno virtual con python3:
-         ```bash python3 -m venv env_py3
+         ```bash
+               python3 -m venv env_py3
       
    1.2. Entorno virtual con python2:
-      ```bash pip install virtualenv
-      ```bash virtualenv -p python2.7 env_py27
+      ```bash
+            pip install virtualenv
+      ```bash
+            virtualenv -p python2.7 env_py27
 
-2. **Instalacion IBEX entorno virtual con python2**
+3. **Instalacion IBEX entorno virtual con python2**
    Seguir indicaciones de documentacion IBEX (http://ibex-team.github.io/ibex-lib/).
 
-3. **Clonar carpeta env_ann en entorno virtual con python3**
+4. **Clonar carpeta env_ann en entorno virtual con python3**
 
 ## Estructura del Repositorio
 1. **Carpeta env_ann**:
