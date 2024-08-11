@@ -60,15 +60,17 @@ Antes de comenzar, se decidio crear un entorno virtual con python para la instal
    Ya instalada la libreria ibex en su entorno virtual y la ANN igual, entonces se procede a explicar como ejecutar problemas usando ambas partes.
 
    1. **Ejecutar script python main.py que tambien trabaja como servidor**
-      ```bash
+      ```
          python3 main.py
+      ```
    2. **Ejecutar problema con libreria IBEX**
-      Antes de la ejecucion, la libreria ibex crea un ejecutable de la siguiente manera.
-      ```bash
+      Antes de la ejecucion, la libreria ibex crea un ejecutable de la siguiente manera. Generando el archivo ibexopt ubicado en ./__build__/src/ibexopt .
+      ```
          waf ./install
-      generando el archivo ibexopt ubicado en ./__build__/src/ibexopt
+      ```
       
-      Y para ejecutar un caso de prueba se usa el siguiente comando:
-      ```bash
+      Y para ejecutar un caso de prueba con una semilla aleatoria, se usa el siguiente comando:
+      ```
          ./__build__/src/ibexopt benchs/optim/medium/ex6_2_9.bch --random-seed=1
+      ```
 
